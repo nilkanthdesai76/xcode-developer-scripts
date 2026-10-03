@@ -1,5 +1,6 @@
 # Xcode Developer Scripts 🛠️
 
+[![CI](https://github.com/nilkanthdesai76/xcode-developer-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/nilkanthdesai76/xcode-developer-scripts/actions)
 A collection of battle-tested automation scripts and CLI utilities for Apple platforms engineers (iOS, macOS, visionOS).
 
 [![Platform](https://img.shields.io/badge/Platform-macOS%2012%2B-blue?style=flat-square&logo=apple)](https://developer.apple.com/macos)
