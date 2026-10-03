@@ -1,0 +1,46 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#sbg)" stroke="#334155"/>
+
+  <!-- Script 1: Color Asset Renamer -->
+  <g transform="translate(60, 45)">
+    <rect width="260" height="190" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="130" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#38bdf8" font-weight="700" text-anchor="middle">🎨 Color Asset Migrator</text>
+    <line x1="20" y1="46" x2="240" y2="46" stroke="#334155"/>
+    <text x="25" y="75" font-family="monospace" font-size="12" fill="#cbd5e1">rename_color_assets.py</text>
+    <text x="25" y="105" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">Walks project files and batch</text>
+    <text x="25" y="125" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">renames color references in</text>
+    <text x="25" y="145" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">.storyboard and .xib files.</text>
+    <text x="25" y="170" font-family="-apple-system, sans-serif" font-size="11" fill="#38bdf8">✓ Zero broken asset links</text>
+  </g>
+
+  <!-- Script 2: XCFramework Builder -->
+  <g transform="translate(370, 45)">
+    <rect width="260" height="190" rx="12" fill="#1e293b" stroke="#818cf8" stroke-width="1.5"/>
+    <text x="130" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#818cf8" font-weight="700" text-anchor="middle">📦 XCFramework Builder</text>
+    <line x1="20" y1="46" x2="240" y2="46" stroke="#334155"/>
+    <text x="25" y="75" font-family="monospace" font-size="12" fill="#cbd5e1">build_xcframework.sh</text>
+    <text x="25" y="105" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">Builds device + simulator</text>
+    <text x="25" y="125" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">slices and merges them into</text>
+    <text x="25" y="145" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">a binary .xcframework bundle.</text>
+    <text x="25" y="170" font-family="-apple-system, sans-serif" font-size="11" fill="#818cf8">✓ Universal binary release</text>
+  </g>
+
+  <!-- Script 3: Git Patch Helper -->
+  <g transform="translate(680, 45)">
+    <rect width="260" height="190" rx="12" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="130" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#c084fc" font-weight="700" text-anchor="middle">🐙 Git Patch Workflow</text>
+    <line x1="20" y1="46" x2="240" y2="46" stroke="#334155"/>
+    <text x="25" y="75" font-family="monospace" font-size="12" fill="#cbd5e1">git_patch_helper.sh</text>
+    <text x="25" y="105" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">Generates and applies</text>
+    <text x="25" y="125" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">git format-patch bundles</text>
+    <text x="25" y="145" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8">for offline review and sync.</text>
+    <text x="25" y="170" font-family="-apple-system, sans-serif" font-size="11" fill="#c084fc">✓ Automated patch series</text>
+  </g>
+</svg>
